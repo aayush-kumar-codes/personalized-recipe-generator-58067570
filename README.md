@@ -1,77 +1,69 @@
-# Personalized Recipe Generator 🍽️
+# README.md
 
-![Build Status](https://img.shields.io/badge/build-passing-brightgreen) ![Version](https://img.shields.io/badge/version-1.0.0-blue) ![License](https://img.shields.io/badge/license-MIT-yellowgreen)
+# Project Title
 
-## Project Description
-The **Personalized Recipe Generator** is a web application designed to help home cooks, food enthusiasts, and individuals with dietary restrictions discover personalized recipes based on their available ingredients and dietary preferences. Users can save their favorite recipes, share them with others, and contribute to a community recipe database.
+A brief description of your project.
 
-## Features
-- 🔒 User authentication and profile management
-- 🥗 Ingredient input with dietary preferences and restrictions
-- 🍳 Dynamic recipe generation based on available ingredients
-- 💾 Save and share favorite recipes
-- 🌍 Community feature for users to submit and rate recipes
+## Getting Started
 
-## Tech Stack
-### Frontend
-- **React** ⚛️
+These instructions will help you set up your project locally.
 
-### Backend
-- **Node.js** 🟢
+### Prerequisites
 
-### Database
-- **MongoDB** 🐱‍💻
+- Node.js (v14 or higher)
+- MongoDB (local or cloud instance)
+- Git
 
-## Installation
-To set up the project locally, follow these steps:
+### Installation
 
-- Clone the repository
-bash
-git clone https://github.com/aayush-kumar-codes/personalized-recipe-generator-58067570.git
-- Navigate to the project directory
-bash
-cd personalized-recipe-generator-58067570
-- Install the dependencies
-bash
-npm install
-- Set up environment variables (create a `.env` file)
-bash
-touch .env
-- Start the development server
-bash
-npm start
-## Usage
-1. Open your web browser and navigate to `http://localhost:3000`.
-2. Create an account or log in to your existing profile.
-3. Input your available ingredients and dietary preferences.
-4. Explore the generated recipes, save your favorites, and share them with the community!
+1. Clone the repository
+   git clone https://github.com/yourusername/your-repo-name.git
 
-## API Documentation
-For detailed API documentation, please refer to the [API Documentation](https://github.com/aayush-kumar-codes/personalized-recipe-generator-58067570/wiki/API-Documentation).
+2. Navigate to the project directory
+   cd your-repo-name
 
-## Testing
-To run tests for the project, use the following command:
-bash
-npm test
-## Deployment
-To deploy the application, follow these steps:
+3. Install server dependencies
+   cd server
+   npm install
 
-- Build the application
-bash
-npm run build
-- Deploy the `build` folder to your preferred hosting service (e.g., Heroku, Vercel).
+4. Install client dependencies
+   cd ../client
+   npm install
 
-## Contributing
-We welcome contributions! Please follow these steps to contribute:
+### Running the Application
 
-1. Fork the repository.
-2. Create a new branch (`git checkout -b feature/YourFeature`).
-3. Make your changes and commit them (`git commit -m 'Add some feature'`).
-4. Push to the branch (`git push origin feature/YourFeature`).
-5. Open a pull request.
+1. Start the server
+   cd server
+   npm start
 
-## License
+2. Start the client
+   cd ../client
+   npm start
+
+### Folder Structure
+
+your-repo-name/
+├── client/          # React frontend
+│   ├── public/
+│   ├── src/
+│   └── package.json
+├── server/          # Node.js backend
+│   ├── models/
+│   ├── routes/
+│   ├── controllers/
+│   ├── config/
+│   ├── .env
+│   ├── server.js
+│   └── package.json
+└── README.md
+### Contributing
+
+1. Fork the repository
+2. Create your feature branch (git checkout -b feature/YourFeature)
+3. Commit your changes (git commit -m 'Add some feature')
+4. Push to the branch (git push origin feature/YourFeature)
+5. Open a pull request
+
+### License
+
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## Acknowledgments
-- Thanks to all contributors and the open-source community for their support and inspiration!
